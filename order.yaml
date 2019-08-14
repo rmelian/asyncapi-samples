@@ -1,0 +1,10 @@
+order:
+  payload:
+    type: object
+    properties:
+      id:
+        type: string
+      amount:
+        type: number
+      comment:
+        type: string
