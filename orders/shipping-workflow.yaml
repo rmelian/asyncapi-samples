@@ -1,0 +1,29 @@
+asyncapi: '2.0.0-rc1'
+id: 'urn:shipping-workflow'
+info:
+  title: Shipping Workflow Service
+  version: '0.1.0'
+channels:
+  orders.submitted:
+    subscribe:
+      message:
+        $ref: '#/components/messages/order'
+    bindings:
+      amqp:
+        type: queue
+        queue:
+          name: submitted
+        meta:
+          version: '0.1.0'
+components:
+  messages:
+    order:
+      payload:
+        type: object
+        properties:
+          id:
+            type: string
+          status:
+            type: string
+          timestamp:
+            type: string
