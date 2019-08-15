@@ -1,5 +1,5 @@
 # orders example documented using AsyncAPI
-In this example we document the collaboration between 3 different services, using AsyncAPI specification, in the image below we can see this collaboration.
+In this example the collaboration between 3 different services are documented using AsyncAPI specification, in the image below we can see this collaboration.
 
 ![Orders sample application](orders.jpg)
 
