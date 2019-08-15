@@ -3,7 +3,9 @@ In this example the collaboration between 3 different services are documented us
 
 ![Orders sample application](orders.jpg)
 
-We assume the services are communicating through a message broker using the AMPQ protocol.
+For this example it is assumed the services are communicating through a message broker using the AMPQ protocol.
+
+Also these specifications are making use of a WIP [Pull Request](https://github.com/asyncapi/asyncapi/pull/258/files?short_path=66aecf4#diff-66aecf47e1eec5bfb6c5192f67c0914f)
 
 ## AsyncAPI specifications
 
